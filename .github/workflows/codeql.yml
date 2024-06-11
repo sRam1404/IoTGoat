@@ -86,7 +86,7 @@ jobs:
           'languages you are analyzing, replace this with the commands to build' \
           'your code, for example:'
         ls
-        cd IoTGoat/OpenWrt/openwrt-18.06.2/
+        cd OpenWrt/openwrt-18.06.2/
         ./scripts/feeds update -a
         ./scripts/feeds install -a
         make menuconfig .config-x86
